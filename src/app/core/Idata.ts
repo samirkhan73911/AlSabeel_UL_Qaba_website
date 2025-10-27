@@ -1,0 +1,16 @@
+export interface Chefcard {
+
+  imgurl: string;
+  name: string;
+  designation: string;
+  links: string[];
+ 
+}
+export interface pagetitle {
+
+  page1: string;
+  page2: string;
+  link: string;
+
+
+}

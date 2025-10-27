@@ -1,0 +1,137 @@
+<app-title-page [data]="{  link:'About Us' , page1: 'Home', page2: 'Contact Us' }"/>
+
+<!-- getintuch -->
+
+<section id="getintuch" class="position-relative bg-secondary">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 text-center">
+        <h2 class="pt-0 headingprimary">Get in Touch</h2>
+        <div class="dividerimg">
+          <img src="/images/divider.png" alt="" loading="lazy" />
+        </div>
+        <p class="mt-0 mb-3 description colorgray">
+         For any inquiries about our travel packages and services, please don’t hesitate to reach out. We’re here to assist you every step of the way!
+        </p>
+      </div>
+
+      <!-- <div class="col-12 col-md-6 py-3">
+                <form action="/submit" method="post" class="row">
+
+                    <div class="col-12 pb-1 ">
+
+                        <div class="input-group mb-3 position-relative">
+                            <span class="inputicon"><img src="/imgs/user1.png" alt="" loading="lazy"></span>
+                            <input type="text" class="form-control text-start input" id="FullName" placeholder="NAME"
+                                required>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 pb-1">
+
+                        <div class="input-group mb-3 position-relative">
+                            <span class="inputicon"><img src="/imgs/email.png" alt="" loading="lazy"></span>
+                            <input type="email" class="form-control text-start input" id="email" placeholder="EMAIL" required>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 pb-1">
+
+                        <div class="input-group mb-3 position-relative">
+                            <span class="inputicon"><img src="/imgs/telephone.png" alt=""
+                                    loading="lazy"></span>
+                            <input type="phone" class="form-control text-start input" id="contactNo" placeholder="NUMBER"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 pb-1">
+
+                        <div class="input-group mb-3 position-relative">
+                            <span class="inputicon"><img src="/imgs/chat.png" alt="" loading="lazy"></span>
+                            <textarea placeholder="Message" class="form-control text-start textarea " id="textarea" rows="5"
+                                required></textarea>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-12 px-4 text-center ">
+                        <button class="btn getintuchbtn btn-md " type="submit">SEND MESSAGE</button>
+                    </div>
+
+                </form>
+            </div> -->
+
+      <div class="col-12 py-3">
+        <div class="map p-4 mx-auto">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.9269954045761!2d71.84044750646308!3d34.82961298356212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dbf30005e799a5%3A0x78d92247e326893b!2sLONDON%20MOBILE!5e0!3m2!1sen!2s!4v1761155445627!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- address -->
+
+<section id="address" class="bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <app-address-card [type]="'simple'" [adressdata]="{
+                    iconurl:'/images/pin.png',
+                    title:'ADDRESS',
+                    carddata:'A block 2nd floor zeb city center timargara dir lower kpk' }"/>
+      
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        
+         <app-address-card [type]="'simple'" [adressdata]="{
+                    iconurl:'/images/telephone.png',
+                    title:'PHONE NO',
+                    carddata:'Shazaib: 03038455848,<br> Farroq: 03477703927,<br>landline: 0945822608' }"/>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+           <app-address-card [type]="'simple'" [adressdata]="{
+                    iconurl:'/images/email.png',
+                    title:'EMAIL',
+                    carddata:'jehanzebkhanceo@yahoo.com ' }"/>
+        
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <app-address-card [type]="'social'"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <div class="card addresscardsize my-4 py-3  align-items-center justify-content-center">
+
+       
+        <div class="adresicondiv">
+
+
+                <img [src]="adressdata.iconurl" class="icon" alt="img" loading="lazy">
+
+        </div>
+        <div class="card-body p-3">
+                <h3 class="card-text text-center addresscardtitle ">{{adressdata.title}}</h3>
+                <p class="card-text text-center addresscarddescrption" [innerHTML]="adressdata.carddata"></p>
+
+        </div>
+        
+</div> -->
