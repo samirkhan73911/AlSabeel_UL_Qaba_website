@@ -1,9 +1,6 @@
 .scoial-img{
     width: 20px;
-    /* filter: invert(); */
+     filter: brightness(0) saturate(100%) invert(63%) sepia(42%) saturate(686%) hue-rotate(15deg) brightness(90%) contrast(95%);
 }
 
 
-.logo{
-     mix-blend-mode: multiply;
-}

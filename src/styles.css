@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --bg-primary: wheat !important;
-  --primary-color: #993b7e !important;
+  --bg-primary: rgb(51, 16, 16) !important;
   --bg-secondary: #fefefe !important;
+  --bg-tertiary: rgb(225, 228, 242) !important;
+  --primary-color:  #d9a42f !important;
+  --secondary-color: #993b7e !important;
 }
 
 body {
@@ -15,10 +17,16 @@ body {
 .bg-secondary {
   background-color: var( --bg-secondary) !important;
 }
-.colorprimary {
-  color: var( --bg-primary) !important;
+.bg-tertiary {
+  background-color: var( --bg-tertiary) !important;
 }
-.borderprimary {
+.color-primary {
+  color: var(  --primary-color) !important;
+}
+.color-secondary {
+  color: var( --primary-color) !important;
+}
+.border-primary {
   border-color: var( --bg-primary) !important;
 }
 

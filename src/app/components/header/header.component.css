@@ -1,8 +1,12 @@
 
+#navbarNav{
+    justify-content: end;
+  margin-right: 10%;
+}
 
 #navbarNav .nav-item{
     padding: 10px;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 20px 0px 10px;
     font-size: 18px;
     font-weight: bold;
  
@@ -10,12 +14,12 @@
 }
 #navbarNav .nav-item>a{
    
-    color: rgb(68, 68, 67);
+    color:var(--primary-color);
     transition: all 0.5s ease;
   
 }
-.logo{
+/* .logo{
     mix-blend-mode: multiply;
     width: 100px;
     text-align: end;
-}
+} */
