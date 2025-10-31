@@ -3,6 +3,7 @@ export interface Chefcard {
   imgurl: string;
   name: string;
   designation: string;
+  cellno: number;
   links: string[];
  
 }

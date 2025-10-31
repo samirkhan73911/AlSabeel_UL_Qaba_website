@@ -20,11 +20,33 @@
 /* card */
 
 .card-img-top {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 100%;
+  aspect-ratio: 1/1;
+  object-position:top;
+  
  
 }
+.card-cellphone img {
+  
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+ 
+}
+/* .card-cellphone p {
+  
+  
+  font-size: 18px;
+  font-weight: 600;
+  color: gray;
+  color: var(--main-theme-color); 
+  margin: 0;
+  line-height: 20px;
+ 
+} */
+
 .cardbodyBgClr {
   background: #f5f5f5;
   border-top: 1px solid #e5e5e5;
@@ -33,6 +55,7 @@
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  color: gray;
   /* color: var(--main-theme-color); */
   margin: 0;
   line-height: 20px;
