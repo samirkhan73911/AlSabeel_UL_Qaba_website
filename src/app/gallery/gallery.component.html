@@ -1,0 +1,23 @@
+<app-title-page [data]="{ link: 'Gallery', page1: 'Home', page2: 'Gallery' }" />
+<section>
+  <div class="container mb-4">
+    <div class="row">
+         <div class="col-sm-12 text-center">
+        <h2 class="pt-0 headingprimary">Sacred Moments Captured</h2>
+        <div class="dividerimg">
+          <img src="/images/divider.png" alt="" loading="lazy" />
+        </div>
+        <p class="mt-0 mb-3 description colorgray">
+        A reflection of the blessed journeys undertaken with Al Sabeel ul Qaba, each photograph embodies devotion, unity, and the profound peace found in the sacred rituals of Hajj and Umrah. Experience the spiritual essence of these journeys through captured moments that showcase the dedication, reverence, and grace defining every pilgrim’s sacred path.
+        </p>
+      </div>
+      <div class="col-3 my-2 mx-4" *ngFor="let img of images">
+        <div class="gallery">
+
+            <img [src]="basePath + img" [alt]="img" class="photo" />
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</section>
