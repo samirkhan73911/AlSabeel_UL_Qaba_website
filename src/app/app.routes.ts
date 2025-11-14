@@ -4,7 +4,8 @@ import { UmrahComponent } from './pages/umrah/umrah.component';
 import { HajjComponent } from './pages/hajj/hajj.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
+
 
 export const routes: Routes = [
     {

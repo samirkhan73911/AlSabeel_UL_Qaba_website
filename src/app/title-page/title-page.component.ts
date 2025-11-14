@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { pagetitle } from '../core/Idata';
+import { pagetitle } from '../core/interfaces/Idata';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from "@angular/router";
 

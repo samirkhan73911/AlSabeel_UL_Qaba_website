@@ -1,3 +1,27 @@
 #profile{
    
 }
+
+#testomainy{
+background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/kabaPic3.jpg) no-repeat center center / cover;
+ 
+}
+
+.img_info{
+   
+    height: 500px;
+}
+
+.whyusIcons{
+  max-width: 80px;
+
+  margin: 0px 0px 0px 9%;
+ /* mix-blend-mode: difference; */
+}
+
+/* #testomainy::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.493);
+} */

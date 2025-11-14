@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { TitlePageComponent } from "../title-page/title-page.component";
+
 import { CommonModule } from '@angular/common';
+import { TitlePageComponent } from '../../title-page/title-page.component';
 
 @Component({
   selector: 'app-gallery',

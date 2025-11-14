@@ -1,10 +1,11 @@
-
-<app-title-page [data]="{  link:'About Us' , page1: 'Home', page2: 'About Us' }"/>
+<app-title-page
+  [data]="{ link: 'About Us', page1: 'Home', page2: 'About Us' }"
+/>
 <section id="address" class="bg-tertiary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="pt-0 headingprimary">About Al Sabeel Ul Qaba</h2>
+        <h2 class="pt-0 headingprimary">About Al Sabeel Ul Kaba</h2>
         <div class="dividerimg">
           <img src="/images/divider.png" alt="" loading="lazy" />
         </div>
@@ -19,7 +20,7 @@
         </h2>
 
         <p class="mt-0 mb-3 description colorgray text-start">
-          At Al Sabeel Ul Qaba Hajj & Umrah, we take pride in serving the
+          At Al Sabeel Ul Kaba Hajj & Umrah, we take pride in serving the
           honored guests of Allah by providing exceptional Hajj and Umrah
           services. Our mission is to make your spiritual journey seamless,
           comfortable, and deeply meaningful — from the moment you plan your
@@ -34,7 +35,7 @@
         </p>
         <p class="mt-0 mb-3 description colorgray text-start">
           Whether you’re embarking on your first Umrah or performing Hajj with
-          family, Al Sabeel Ul Qaba is here to guide you at every step — so you
+          family, Al Sabeel Ul Kaba is here to guide you at every step — so you
           can focus entirely on your worship and spiritual connection.
         </p>
       </div>
@@ -71,46 +72,105 @@
         </p>
       </div>
     </div>
-
-   
   </div>
 </section>
 
-<section id="profile" class="bg-secondary">
-  <div class="container-fluid">
-     <div class="row justify-content-center">
-      <div class="col-sm-12 text-center mb-5">
-        <h2 class="pt-0 headingprimary">OUR TEAM</h2>
+<section id="testomainy" class="bg-tertiary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="pt-0 text-light headingprimary">why choose us</h2>
         <div class="dividerimg">
-          <img src="/images/divider.png" alt="" loading="lazy" />
+          <img class="inverted " src="/images/divider.png" alt="" loading="lazy" />
         </div>
         <!-- <p class="mt-0 mb-3 description colorgray">
           For any inquiries about our travel packages and services, please don’t
           hesitate to reach out. We’re here to assist you every step of the way!
         </p> -->
       </div>
-
-      <div class="col-12 col-sm-6 col-lg-3 my-5">
-        <app-profile-card
-          [carddata]="{
-            imgurl: '/profilePics/shahzeb3.jpg',
-            designation: 'CFO',
-            name: 'shahzeb khan',
-            cellno:923038455848,
-            links: [
-              'https://www.facebook.com/share/1BHcednYzG/',
-              'www.facebook.com',
-              'www.facebook.com',
-              'https://wa.me/923038455848'
-            ]
-          }"
-        />
+      <div class="col-sm-4 text-center">
+        <div class="img_info mb-5">
+          <img class="w-100 h-100 object-fit-contain" src="/images/alsabeel.png" alt="" />
+        </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
+      <div class="col-sm-8 text-center">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-sm-6 text-start mb-5">
+              <div class="whyusIcons">
+
+                <img class="inverted img-fluid" src="/images/experience.png" alt="">
+              </div>
+              <h2 class="pt-0 mt-4 mb-2 text-light headingsecondary">Years of Excellence</h2>
+
+              <p class="mt-0 text-light mb-3 description text-capitalize colorgray text-start">
+                20+  years
+              </p>
+            </div>
+            <div class="col-sm-6 text-start mb-5">
+             <div class="whyusIcons">
+
+               <img class="inverted img-fluid" src="/images/rating.png" alt="">
+             </div>
+              <h2 class="pt-0 mt-4 mb-2 text-light  headingsecondary">Satisfied Customer</h2>
+
+              <p class="mt-0 text-light mb-3 text-capitalize description colorgray text-start">
+                2500+ customer
+              </p>
+            </div>
+            <div class="col-sm-6 text-start mb-5">
+              <div class="whyusIcons">
+
+                <img class="inverted img-fluid" src="/images/hajj.png" alt="">
+              </div>
+            
+              <h2 class="pt-0 mt-4 mb-2 text-light  headingsecondary">Pilgrims</h2>
+
+              <p class="mt-0 text-light mb-3 text-capitalize description colorgray text-start">
+                40+  per year
+              </p>
+            </div>
+            <div class="col-sm-6 text-start mb-5">
+              <div class="whyusIcons">
+
+                <img class="inverted img-fluid" src="/images/standards.png" alt="">
+              </div>
+              <h2 class="pt-0 mt-4 mb-2 text-light headingsecondary">Pilgrims</h2>
+
+              <p class="mt-0 text-light mb-3 text-capitalize description colorgray text-start">
+                40+ customer
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="profile" class="bg-secondary">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 text-center mb-3">
+        <h2 class="pt-0 headingprimary">Meet Our Dedicated Team</h2>
+        <div class="dividerimg">
+          <img src="/images/divider.png" alt="" loading="lazy" />
+        </div>
+        <p class="mt-0 mb-3 description colorgray">
+          Our dedicated team is committed to serving pilgrims with sincerity,
+          professionalism, and care. With years of experience in organizing Hajj
+          and Umrah journeys, we understand the spiritual importance of every
+          step you take.From travel arrangements and accommodations to on-ground
+          guidance in the holy cities, our experts work tirelessly to ensure
+          your pilgrimage is safe, comfortable, and spiritually fulfilling.
+        </p>
+      </div>
+
+      <!-- <div class="col-12 col-sm-6 col-lg-3">
         <app-profile-card
           [carddata]="{
             imgurl: '/profilePics/jehanzeb.jpeg',
-            designation: 'CEO',
+            designation: 'Cheif Executive',
             name: 'jehanzeb khan',
             cellno:923449777231,
             links: [
@@ -127,7 +187,7 @@
         <app-profile-card
           [carddata]="{
             imgurl: '/profilePics/farooq.jpeg',
-            designation: 'COO',
+            designation: 'Office Manager',
             name: 'farooq khan',
               cellno:923477703927,
             links: [
@@ -138,7 +198,14 @@
             ]
           }"
         />
+      </div> -->
+    </div>
+    <div class="row justify-content-center mx-5">
+      @for (item of teamdata; track $index) {
+      <div class="col-12 col-sm-6 col-lg-3 mb-5 mt-3">
+        <app-profile-card [carddata]="item" />
       </div>
+      }
     </div>
   </div>
 </section>

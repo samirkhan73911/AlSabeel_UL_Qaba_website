@@ -1,0 +1,52 @@
+{
+    "team":[
+        {
+    "imgurl": "/profilePics/jehanzeb.jpeg",
+    "designation": "Chief Executive",
+    "name": "Jehanzeb Khan",
+    "cellno": 923449777231,
+    "links": [
+      "https://www.facebook.com/share/1D9ZYq1tjP/",
+      "https://www.facebook.com",
+      "https://www.facebook.com",
+      "https://wa.me/923449777231"
+    ]
+  },
+  {
+    "imgurl": "/profilePics/shahzeb3.jpg",
+    "designation": "Director",
+    "name": "Shahzeb Khan",
+    "cellno": 923038455848,
+    "links": [
+      "https://www.facebook.com/share/1BHcednYzG/",
+      "https://www.facebook.com",
+      "https://www.facebook.com",
+      "https://wa.me/923038455848"
+    ]
+  },
+  {
+    "imgurl": "/profilePics/farooq.jpeg",
+    "designation": "Office Manager",
+    "name": "Farooq Khan",
+    "cellno": 923477703927,
+    "links": [
+      "https://www.facebook.com/share/17cUQMydJ2/",
+      "https://www.facebook.com",
+      "https://www.facebook.com",
+      "https://wa.me/923477703927"
+    ]
+  },
+  {
+    "imgurl": "/profilePics/farooq.jpeg",
+    "designation": "Office Boy",
+    "name": " Khan",
+    "cellno": 923477703927,
+    "links": [
+      "https://www.facebook.com/share/17cUQMydJ2/",
+      "https://www.facebook.com",
+      "https://www.facebook.com",
+      "https://wa.me/923477703927"
+    ]
+  }
+]
+}

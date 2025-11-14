@@ -1,4 +1,4 @@
-export interface Chefcard {
+export interface Iteam {
 
   imgurl: string;
   name: string;

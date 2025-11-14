@@ -1,6 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
-import { Chefcard } from '../core/Idata';
+import { Component, inject, Input } from '@angular/core';
+import { Iteam } from '../core/interfaces/Idata';
+import { ProfileCardService } from '../core/services/profile-card.service';
+import { error } from 'node:console';
 
 @Component({
   selector: 'app-profile-card',
@@ -10,11 +12,13 @@ import { Chefcard } from '../core/Idata';
   styleUrl: './profile-card.component.css'
 })
 export class ProfileCardComponent {
-// router=inject(Router);
-//  ensrv=inject(EncryptionService);
-  // @Input() cardType: 'menu' | 'popular' | 'chef' | 'blog' = 'menu';
-  @Input() carddata!: Chefcard;
 
+// router=inject(Router);
+ 
+  // @Input() cardType: 'menu' | 'popular' | 'chef' | 'blog' = 'menu';
+  @Input() carddata!: Iteam;
+
+ 
   
 // itemdetailspage(id:number) {
 //   // this.router.navigate(['/productdetailspage',id]);

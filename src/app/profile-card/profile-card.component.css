@@ -1,4 +1,4 @@
-.ourblogsbtn {
+/* .ourblogsbtn {
   background-color: white;
   color: var(--main-theme-color);
   padding: 8px;
@@ -16,35 +16,38 @@
      background-color: var(--main-theme-color);
   color: white;
   }
-}
-
-
+} */
 
 .hideinfo {
   opacity: 0;
-  
-  display: flex ;
-  flex-direction:column;
+
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-    inset: 0;
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   color: white;
-   transform: translateY(100%);
-    transition: all 0.3s ease;
-    z-index:5
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+  z-index: 5;
 }
-
-
 
 .profileCardSize:hover .hideinfo {
   opacity: 1;
-  
 
-    transform: translateY(0);
- 
+  cursor: auto;
+  transform: translateY(0);
+}
 
-   
+.designation {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #c4c4c4;
+  /* color: var(--main-theme-color); */
+  margin: 0;
+  line-height: 20px;
 }
 
 /* card */
@@ -54,16 +57,12 @@
   width: 100%;
   height: 100%;
   aspect-ratio: 1/1;
-  object-position:top;
-  
- 
+  object-position: top;
 }
 .card-cellphone img {
-  
   width: 25px;
   height: 25px;
   opacity: 0.5;
- 
 }
 /* .card-cellphone p {
   
@@ -85,7 +84,7 @@
   font-family: "Lato", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: gray;
+  color: #c4c4c4;
   /* color: var(--main-theme-color); */
   margin: 0;
   line-height: 20px;
@@ -97,8 +96,9 @@
   color: #757575;
   height: 40px;
   overflow: hidden;
-   display: -webkit-box;
-  -webkit-line-clamp: 2;   /* show only 2 lines */
+  display: -webkit-box;
+  line-clamp: 2; /* show only 2 lines */
+  -webkit-line-clamp: 2; /* show only 2 lines */
   -webkit-box-orient: vertical;
   line-height: 20px;
 }
@@ -114,13 +114,10 @@
   width: 263px;
   height: 350px;
 
-  &:hover{
+  &:hover {
     cursor: pointer;
-
   }
 }
-
-
 
 /* menu card */
 .ourmenucardimg {
@@ -131,13 +128,11 @@
 }
 
 .ourmenucard {
-  
-  width:100%;
+  width: 100%;
   height: auto;
   padding: 0px 13px 0px 16px;
-    &:hover{
+  &:hover {
     cursor: pointer;
-
   }
 }
 .ourmenuPrice {
@@ -166,10 +161,11 @@
   font-weight: 400;
   color: #757575;
   padding-right: 30px;
-    height: 45px;
+  height: 45px;
   overflow: hidden;
-   display: -webkit-box;
-  -webkit-line-clamp: 2;   /* show only 2 lines */
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2; /* show only 2 lines */
   -webkit-box-orient: vertical;
   line-height: 20px;
 }
@@ -183,16 +179,17 @@
   line-height: 20px;
 }
 
-.bordr{
-    border-left: 1px solid rgb(206, 206, 206);
-  }
+.bordr {
+  border-left: 1px solid rgb(206, 206, 206);
+}
 
 /* Our Chefs section*/
 
 .profileCardSize {
-  width: 100%;
-  height: 450px;
- overflow: hidden;
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  margin: 0 auto 0;
 }
 
 .ourchefscarddescrption {
@@ -203,13 +200,11 @@
   height: 60px;
   overflow: hidden;
   display: -webkit-box;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   line-height: 20px;
 }
-
-
-
 
 .social :first-child a:hover {
   background: #1d5add;
@@ -227,61 +222,55 @@
   background: rgb(158, 196, 97);
 }
 
-
-
-@media  (max-width:1199.98px) {
-  .cardsize{
+@media (max-width: 1199.98px) {
+  .cardsize {
     width: 224px;
   }
-  
 }
-@media  (max-width:991.98px) {
-  .cardsize{
+@media (max-width: 991.98px) {
+  .cardsize {
     width: 232px;
   }
-  .cardprice{
-  font-size:20px ;
-}
-    .menudescrption {
-
-  font-size: 14px;
-}
-.ourmenucard{
+  .cardprice {
+    font-size: 20px;
+  }
+  .menudescrption {
+    font-size: 14px;
+  }
+  .ourmenucard {
     width: 100%;
     /* text-align: center !important; */
   }
-  .ourmenucardimg{
+  .ourmenucardimg {
     width: 100px;
   }
 }
-@media  (max-width:766.98px) {
-.cardtitle{
-  font-size: 16px;
-}
-.cardprice{
-  font-size:18px ;
-}
-  .cardsize{
+@media (max-width: 766.98px) {
+  .cardtitle {
+    font-size: 16px;
+  }
+  .cardprice {
+    font-size: 18px;
+  }
+  .cardsize {
     width: 97%;
     /* text-align: center !important; */
   }
   .menudescrption {
-
-  padding-right: 0px;
-}
-  .ourmenucardimg{
+    padding-right: 0px;
+  }
+  .ourmenucardimg {
     width: 130px;
   }
-  .ourmenuPrice{
+  .ourmenuPrice {
     position: static;
   }
-  .bordr{
+  .bordr {
     border: none;
   }
-  
 }
-@media  (max-width:576px) {
- .cardsize{
+@media (max-width: 576px) {
+  .cardsize {
     width: 100%;
     /* text-align: center !important; */
   }
