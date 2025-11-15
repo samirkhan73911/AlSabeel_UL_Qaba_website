@@ -26,13 +26,7 @@
 }
 
 
-.icon {
-  object-fit: contain;
-  width: 25px;
-  height: 25px;
-  filter: invert(1);
-  margin: 20px 0px 0px 20px;
-}
+
 
 
 .adresicondiv {

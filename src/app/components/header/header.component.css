@@ -20,6 +20,22 @@
     transition: all 0.5s ease;
   
 }
+
+.top{
+    background-color: var(--primary-color);
+}
+
+.description{
+   font-weight: 600;
+   color: #331010 !important;
+}
+
+
+.icon{
+    width: 20px;
+    filter: none;
+    margin: 0px 10px 0px 0px;
+}
 /* .logo{
     mix-blend-mode: multiply;
     width: 100px;
